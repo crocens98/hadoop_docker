@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="HadoopDocker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kafka-handler-3.1.3000.7.1.4.0-203.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GeohashHiveUDF-1.0-SNAPSHOT-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
