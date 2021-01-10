@@ -22,6 +22,10 @@ hadoop fs -mkdir /root/hadoop/
 hadoop fs -mkdir /root/hadoop/apache-hive-3.1.2-bin/
 hadoop fs -mkdir /root/hadoop/apache-hive-3.1.2-bin/lib
 
+
+cp /kafka-handler-3.1.3000.7.1.4.0-203.jar   /kafka-handler-3.1.3000.7.1.4.0-203.jar $HIVE_HOME/lib
+cp /kafka-handler-3.1.3000.7.1.4.0-203.jar $HADOOP_HOME/share/hadoop/mapreduce/
+
 hadoop fs -put /kafka-handler-3.1.3000.7.1.4.0-203.jar /root/hadoop/apache-hive-3.1.2-bin/lib
 
 
